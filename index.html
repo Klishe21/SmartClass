@@ -7,6 +7,9 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
 		<link rel="stylesheet" href="/css/reset.css" />
 		<link rel="stylesheet" href="/css/stylesheet.css" />
+		<link rel="stylesheet" href="/css/wrapper.css" />
+		<link rel="stylesheet" href="/css/aside.css" />
+		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/calendario.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,18 +22,20 @@
 					<h1 class="logo">SmartClass</h1>
 				</header>
 				<nav>
-					<li>
-						<button class="boton-menu" active>Resumen <i class="bi bi-house"></i></button>
-					</li>
-					<li>
-						<button class="boton-menu">Calendario <i class="bi bi-mortarboard"></i></button>
-					</li>
-					<li>
-						<button class="boton-menu">Asistencia <i class="bi bi-mortarboard"></i></button>
-					</li>
-					<li>
-						<button class="boton-menu">Configuraciones <i class="bi bi-gear"></i></button>
-					</li>
+					<ul class="menu">
+						<li>
+							<button class="boton-menu active">Resumen <i class="bi bi-house"></i></button>
+						</li>
+						<li>
+							<button class="boton-menu">Calendario <i class="bi bi-mortarboard"></i></button>
+						</li>
+						<li>
+							<button class="boton-menu">Asistencia <i class="bi bi-mortarboard"></i></button>
+						</li>
+						<li>
+							<button class="boton-menu">Configuraciones <i class="bi bi-gear"></i></button>
+						</li>
+					</ul>
 				</nav>
 				<footer>
 					<p>Pablo Querales 2023 ©</p>
@@ -38,66 +43,66 @@
 			</aside>
 			<main>
 				<h2 class="titulo-principal">Resumen</h2>
-			</main>
-		</div>
-		<div class="calendario">
-			<div class="calendario-box">
-				<div class="calendario-box-header">
-					<p class="current-date">Septiembre 2023</p>
-					<div class="calendario-box-header-iconos">
-						<span><i class="bi bi-arrow-left-short"></i></span>
-						<span><i class="bi bi-arrow-right-short"></i></span>
+				<div class="calendario">
+					<div class="calendario-box">
+						<div class="calendario-box-header">
+							<p class="current-date">Septiembre 2023</p>
+							<div class="calendario-box-header-iconos">
+								<span><i class="bi bi-arrow-left-short"></i></span>
+								<span><i class="bi bi-arrow-right-short"></i></span>
+							</div>
+						</div>
+						<div class="calendario-box-contenido">
+							<ul class="semanas">
+								<li>Dom</li>
+								<li>Lun</li>
+								<li>Mar</li>
+								<li>Mie</li>
+								<li>Jue</li>
+								<li>Vie</li>
+								<li>Sab</li>
+							</ul>
+							<ul class="dias">
+								<li class="inactivo">29</li>
+								<li class="inactivo">30</li>
+								<li class="inactivo">31</li>
+								<li>1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>6</li>
+								<li>7</li>
+								<li>8</li>
+								<li class="activo">9</li>
+								<li>10</li>
+								<li>11</li>
+								<li>12</li>
+								<li>13</li>
+								<li>14</li>
+								<li>15</li>
+								<li>16</li>
+								<li>17</li>
+								<li>18</li>
+								<li>19</li>
+								<li>20</li>
+								<li>21</li>
+								<li>22</li>
+								<li>23</li>
+								<li>24</li>
+								<li>25</li>
+								<li>26</li>
+								<li>27</li>
+								<li>28</li>
+								<li>29</li>
+								<li>30</li>
+								<li class="inactivo">1</li>
+								<li class="inactivo">2</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-				<div class="calendario-box-contenido">
-					<ul class="semanas">
-						<li>Dom</li>
-						<li>Lun</li>
-						<li>Mar</li>
-						<li>Mie</li>
-						<li>Jue</li>
-						<li>Vie</li>
-						<li>Sab</li>
-					</ul>
-					<ul class="dias">
-						<li class="inactivo">29</li>
-						<li class="inactivo">30</li>
-						<li class="inactivo">31</li>
-						<li>1</li>
-						<li>2</li>
-						<li>3</li>
-						<li>4</li>
-						<li>5</li>
-						<li>6</li>
-						<li>7</li>
-						<li>8</li>
-						<li class="activo">9</li>
-						<li>10</li>
-						<li>11</li>
-						<li>12</li>
-						<li>13</li>
-						<li>14</li>
-						<li>15</li>
-						<li>16</li>
-						<li>17</li>
-						<li>18</li>
-						<li>19</li>
-						<li>20</li>
-						<li>21</li>
-						<li>22</li>
-						<li>23</li>
-						<li>24</li>
-						<li>25</li>
-						<li>26</li>
-						<li>27</li>
-						<li>28</li>
-						<li>29</li>
-						<li>30</li>
-						<li class="inactivo">1</li>
-						<li class="inactivo">2</li>
-					</ul>
-				</div>
-			</div>
+			</main>
 		</div>
 	</body>
 </html>

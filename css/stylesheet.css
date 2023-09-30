@@ -1,6 +1,11 @@
-html{
-    font-family:'Poppins',sans-serif;
+* {
+	box-sizing: border-box;
 }
-nav{
-list-style: none;
+html {
+	font-family: "Poppins", sans-serif;
+	background-color: rgb(154, 138, 117);
+}
+
+nav {
+	list-style: none;
 }
