@@ -45,18 +45,18 @@
 	width: calc(100% / 7);
 	padding: 20px;
 }
-.calendario-box-contenido .dias li {
+.calendario-box-contenido .days li {
 	cursor: pointer;
 	margin-top: 10px;
 	z-index: 1;
 }
-.dias .inactivo {
+.days .inactivo {
 	color: #d4d4d4;
 }
-.dias .activo {
+.days .activo {
 	color: #d4d4d4;
 }
-.calendario-box-contenido .dias li::before {
+.calendario-box-contenido .days li::before {
 	content: "";
 	position: absolute;
 	top: 50%;
@@ -67,11 +67,11 @@
 	transform: translate(-50%, -50%);
 }
 
-.dias li:hover {
+.days li:hover {
 	background: #e0e0e0;
 	border-radius: 50%;
 }
-.dias li.activo::before {
+.days li.activo::before {
 	background: #595959;
 	border-radius: 50%;
 }
