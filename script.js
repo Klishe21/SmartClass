@@ -43,7 +43,9 @@ prevNextIcons.forEach(icon =>{
         currentMonth = icon.id === "prev" ? currentMonth -1 : currentMonth + 1;
         if (currentMonth < 0 || currentMonth > 11) {
             date = new Date(currentYear, currentMonth);
+            console.log(currentYear)
             currentYear = date.getFullYear();
+            console.log(currentYear)
             currentMonth = date.getMonth();
         } else
             date = new Date();
