@@ -38,14 +38,13 @@ const renderCalendar = () => {
 }
 renderCalendar();
 
+//Función que permite extender el calendario por mas años
 prevNextIcons.forEach(icon =>{
     icon.addEventListener("click", () =>{
         currentMonth = icon.id === "prev" ? currentMonth -1 : currentMonth + 1;
         if (currentMonth < 0 || currentMonth > 11) {
             date = new Date(currentYear, currentMonth);
-            console.log(currentYear)
             currentYear = date.getFullYear();
-            console.log(currentYear)
             currentMonth = date.getMonth();
         } else
             date = new Date();

@@ -5,19 +5,18 @@
 	min-height: 80vh;
 }
 .calendario-box {
-	width: 450px;
+	width: 500px;
 	background-color: aliceblue;
 	border-radius: 1rem;
-	margin: 10px 0 0 40px;
 }
 .calendario-box-header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	padding: 25px 25px 25px;
+	justify-content: space-around;
+	padding: 25px 25px 0 25px;
 }
 .current-date {
-	font-size: 25px;
+	font-size: 2rem;
 	font-weight: bold;
 }
 .calendario-box-header-iconos span {
@@ -34,6 +33,7 @@
 }
 .calendario-box-contenido {
 	padding: 20px;
+	padding-bottom: 0;
 }
 .calendario-box-contenido ul {
 	display: flex;
@@ -43,11 +43,10 @@
 .calendario-box-contenido ul li {
 	position: relative;
 	width: calc(100% / 7);
-	padding: 20px;
+	padding: 24px;
 }
 .calendario-box-contenido .days li {
 	cursor: pointer;
-	margin-top: 10px;
 	z-index: 1;
 }
 .days .inactivo {
