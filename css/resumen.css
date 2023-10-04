@@ -1,0 +1,10 @@
+.resumen {
+	display: flex;
+	width: 100%;
+}
+.resumen-filtro {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 6rem;
+}

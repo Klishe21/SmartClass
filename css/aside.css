@@ -31,10 +31,10 @@ aside {
 	text-shadow: 0 0 30px black;
 	padding: 1rem;
 	position: relative;
+	width: 100%;
 }
 .boton-menu.active {
 	background-color: rgb(178, 160, 137);
-	width: 100%;
 	border-top-left-radius: 1rem;
 	border-bottom-left-radius: 1rem;
 }

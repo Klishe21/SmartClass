@@ -3,6 +3,7 @@
 	align-items: center;
 	justify-content: center;
 	min-height: 80vh;
+	display: none;
 }
 .calendario-box {
 	width: 500px;
@@ -33,7 +34,7 @@
 }
 .calendario-box-contenido {
 	padding: 20px;
-	padding-bottom: 0;
+	padding-bottom: 5px;
 }
 .calendario-box-contenido ul {
 	display: flex;
