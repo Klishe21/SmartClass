@@ -1,0 +1,6 @@
+.resumen-estudiantes {
+	display: grid;
+}
+.resumen-estudiantes-card {
+	background-color: aliceblue;
+}
