@@ -3,8 +3,27 @@
 	width: 100%;
 }
 .resumen-filtro {
-	width: 150px;
+	width: 180px;
 	display: flex;
 	flex-direction: column;
-	gap: 6rem;
+	background-color: aliceblue;
+	border-radius: 2rem;
+	padding: 1rem;
+}
+.resumen-filtro p {
+	font-size: 1.2rem;
+	color: rgb(178, 160, 137);
+	font-weight: bold;
+
+	margin-bottom: 0.5rem;
+}
+.boton-main {
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.boton-main:hover {
+	color: rgb(178, 160, 137);
 }
