@@ -1,6 +1,10 @@
 .resumen-estudiantes {
-	display: grid;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	width: 70%;
 }
 .resumen-estudiantes-card {
 	background-color: aliceblue;
+	border-radius: 1rem;
 }
