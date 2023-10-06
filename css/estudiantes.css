@@ -1,10 +1,55 @@
 .resumen-estudiantes {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	gap: 1rem;
-	flex-wrap: wrap;
-	width: 70%;
+	margin: 1rem;
 }
 .resumen-estudiantes-card {
 	background-color: aliceblue;
 	border-radius: 1rem;
+	height: 8rem;
+	text-align: center;
+}
+.nombre {
+	background-color: aquamarine;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 0.2rem;
+}
+.nombre p {
+	font-size: 0.7rem;
+}
+.resumen-clases {
+	display: flex;
+	background-color: brown;
+	height: 4rem;
+	justify-content: space-between;
+	font-size: 0.8rem;
+}
+.resumen-clases h3 {
+	background-color: rgb(238, 236, 236);
+}
+.resumen-estudiantes-card-actual {
+	background-color: blue;
+	width: 50%;
+}
+.resumen-estudiantes-card-acumulado {
+	background-color: wheat;
+	width: 50%;
+}
+.add-leasson {
+	font-size: 0.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 1.5rem;
+	cursor: pointer;
+	font-weight: bold;
+	gap: 0.5rem;
+}
+.add-leasson span {
+	font-size: 1.2rem;
 }
