@@ -5,7 +5,6 @@ main {
 	border-radius: 1rem;
 	padding: 1.5rem;
 	display: grid;
-	grid-area: "a";
 }
 
 .titulo-principal {
