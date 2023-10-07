@@ -4,7 +4,8 @@ main {
 	margin-left: 0;
 	border-radius: 1rem;
 	padding: 1.5rem;
-	display: grid;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .titulo-principal {
@@ -14,4 +15,6 @@ main {
 	font-weight: bold;
 	color: cornsilk;
 	text-shadow: 0 0 10px black;
+	width: 100%;
+	height: 1rem;
 }
