@@ -5,6 +5,8 @@
 	background-color: aliceblue;
 	border-radius: 2rem;
 	padding: 1rem;
+
+	box-shadow: 0 0 3px black;
 }
 .resumen-filtro p {
 	font-size: 1.2rem;
