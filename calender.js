@@ -1,7 +1,7 @@
-// calendario
+// calender
 const currentDate = document.querySelector(".current-date");
 const daysTag = document.querySelector(".days");
-const prevNextIcons = document.querySelectorAll(".calendario-box-header-iconos span");
+const prevNextIcons = document.querySelectorAll(".calender-box-header-iconos span");
 
 let date = new Date();
 
@@ -38,7 +38,7 @@ const renderCalendar = () => {
 }
 renderCalendar();
 
-//Función que permite extender el calendario por mas años
+//Función que permite extender el calender por mas años
 prevNextIcons.forEach(icon =>{
     icon.addEventListener("click", () =>{
         currentMonth = icon.id === "prev" ? currentMonth -1 : currentMonth + 1;

@@ -1,16 +1,15 @@
-.calendario {
+.calender {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	min-height: 80vh;
-	display: none;
 }
-.calendario-box {
+.calender-box {
 	width: 500px;
 	background-color: aliceblue;
 	border-radius: 1rem;
 }
-.calendario-box-header {
+.calender-box-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -20,7 +19,7 @@
 	font-size: 2rem;
 	font-weight: bold;
 }
-.calendario-box-header-iconos span {
+.calender-box-header-iconos span {
 	text-align: center;
 	padding: 5px;
 	margin: 0 1px;
@@ -29,24 +28,24 @@
 	font-size: 1.5rem;
 	color: gray;
 }
-.calendario-box-header-iconos span:hover {
+.calender-box-header-iconos span:hover {
 	background: #c0c0c0;
 }
-.calendario-box-contenido {
+.calender-box-contenido {
 	padding: 20px;
 	padding-bottom: 5px;
 }
-.calendario-box-contenido ul {
+.calender-box-contenido ul {
 	display: flex;
 	flex-wrap: wrap;
 	text-align: center;
 }
-.calendario-box-contenido ul li {
+.calender-box-contenido ul li {
 	position: relative;
 	width: calc(100% / 7);
 	padding: 24px;
 }
-.calendario-box-contenido .days li {
+.calender-box-contenido .days li {
 	cursor: pointer;
 	z-index: 1;
 }
@@ -56,7 +55,7 @@
 .days .activo {
 	color: #d4d4d4;
 }
-.calendario-box-contenido .days li::before {
+.calender-box-contenido .days li::before {
 	content: "";
 	position: absolute;
 	top: 50%;
