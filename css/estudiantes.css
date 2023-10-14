@@ -41,7 +41,7 @@
 .resumen-estudiantes-card-acumulado {
 	width: 50%;
 }
-.add-leasson {
+.add-lesson {
 	font-size: 0.8rem;
 	display: flex;
 	justify-content: center;
@@ -52,7 +52,7 @@
 	font-weight: bold;
 	gap: 0.5rem;
 }
-.add-leasson span {
+.add-lesson span {
 	font-size: 1.2rem;
 }
 .acumulados-totales {
