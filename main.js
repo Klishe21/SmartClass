@@ -22,6 +22,7 @@ let alumnos = [{
 
 const contenedorCards = document.querySelector("#contenedor-cards");
 const listaAlumnos = document.querySelector("#lista-alumnos");
+const botonesMenu = document.querySelectorAll(".boton-menu")
 
 // FUNCION ENCARGADA DE GENERAR CARDS DE ALUMNOS
 function cargarCards() {
@@ -63,3 +64,17 @@ function filtrarNombres () {
 }
 filtrarNombres()
 
+
+botonesMenu.forEach( boton =>{
+    boton.addEventListener("click" , (e) =>{
+
+        botonesMenu.forEach( boton => boton.classList.remove("active"))
+
+        e.currentTarget.classList.add("active")
+    })
+})
+
+const precioAlumnos = alumnos.forEach(precio => {
+    console.log(precio)
+})
+console.log(alumnos.value)
