@@ -21,10 +21,10 @@ let alumnos = [{
 }]
 
 const contenedorCards = document.querySelector("#contenedor-cards");
-
+const listaAlumnos = document.querySelector("#lista-alumnos");
 
 // FUNCION ENCARGADA DE GENERAR CARDS DE ALUMNOS
-function cargarNombre() {
+function cargarCards() {
     alumnos.forEach( alumnos =>{
         const div = document.createElement("div")
         div.classList.add("resumen-estudiantes-card")
@@ -49,4 +49,17 @@ function cargarNombre() {
         contenedorCards.append(div)
     })
 } 
-cargarNombre()
+cargarCards()
+
+//FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE ALUMNOS
+function filtrarNombres () {
+    alumnos.forEach ( alumnos => {
+        const ul = document.createElement ("ul")
+        ul.innerHTML = `
+            <li><button class="boton-main">${alumnos.name}</button></li>
+        `
+        listaAlumnos.append(ul)
+    })
+}
+filtrarNombres()
+
