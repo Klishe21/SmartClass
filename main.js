@@ -18,7 +18,11 @@ let alumnos = [{
 {
     name: "Camila" ,
     price : 70
-}]
+},
+{
+    name: "Micaela" ,
+    price : 70
+    }]
 
 const contenedorCards = document.querySelector("#contenedor-cards");
 const listaAlumnos = document.querySelector("#lista-alumnos");
@@ -64,7 +68,7 @@ function filtrarNombres () {
 }
 filtrarNombres()
 
-
+//FUNCION ANONIMA ENCARGADA DE QUITAR Y PONER LA CLASE ACTIVE DEL ASIDE
 botonesMenu.forEach( boton =>{
     boton.addEventListener("click" , (e) =>{
 
@@ -74,7 +78,3 @@ botonesMenu.forEach( boton =>{
     })
 })
 
-const precioAlumnos = alumnos.forEach(precio => {
-    console.log(precio)
-})
-console.log(alumnos.value)
