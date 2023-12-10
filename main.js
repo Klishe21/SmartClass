@@ -1,29 +1,3 @@
-let alumnos = [{
-    name: "Micaela" ,
-    price : 70
-    },
-{
-    name: "Valentina" ,
-    price : 90
-},
-{
-    name: "Rodrigo" ,
-    price : 80
-},
-{
-    name: "Santiago" ,
-    price : 80
-    
-},
-{
-    name: "Camila" ,
-    price : 70
-},
-{
-    name: "Micaela" ,
-    price : 70
-    }]
-
 const contenedorCards = document.querySelector("#contenedor-cards");
 const listaAlumnos = document.querySelector("#lista-alumnos");
 const botonesMenu = document.querySelectorAll(".boton-menu")
