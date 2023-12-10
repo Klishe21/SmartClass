@@ -51,3 +51,5 @@ prevNextIcons.forEach(icon =>{
         renderCalendar();
     })
 })
+
+//Funcion que muestra el calendario a hacer click
