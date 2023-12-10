@@ -1,4 +1,4 @@
-let alumnos = [{
+const Studens = [{
     name: "Micaela" ,
     price : 70
     },
