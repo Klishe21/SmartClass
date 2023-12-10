@@ -1,16 +1,16 @@
 const contenedorCards = document.querySelector("#contenedor-cards");
-const listaAlumnos = document.querySelector("#lista-alumnos");
+const listaStudents = document.querySelector("#lista-Students");
 const botonesMenu = document.querySelectorAll(".boton-menu")
 
-// FUNCION ENCARGADA DE GENERAR CARDS DE ALUMNOS
+// FUNCION ENCARGADA DE GENERAR CARDS DE Students
 function cargarCards() {
-    alumnos.forEach( alumnos =>{
+    Students.forEach( Students =>{
         const div = document.createElement("div")
         div.classList.add("resumen-estudiantes-card")
         div.innerHTML = `
             <div class="nombre">
-				<h2>${alumnos.name}</h2>
-				<p>Precio X Hra : S/ ${alumnos.price}</p>
+				<h2>${Students.name}</h2>
+				<p>Precio X Hra : S/ ${Students.price}</p>
 			</div>
 			<div class="resumen-clases">
 				<div class="resumen-estudiantes-card-actual">
@@ -30,14 +30,14 @@ function cargarCards() {
 } 
 cargarCards()
 
-//FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE ALUMNOS
+//FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE Students
 function filtrarNombres () {
-    alumnos.forEach ( alumnos => {
+    Students.forEach ( Students => {
         const ul = document.createElement ("ul")
         ul.innerHTML = `
-            <li><button class="boton-main">${alumnos.name}</button></li>
+            <li><button class="boton-main">${Students.name}</button></li>
         `
-        listaAlumnos.append(ul)
+        listaStudents.append(ul)
     })
 }
 filtrarNombres()

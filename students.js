@@ -1,4 +1,4 @@
-const Studens = [{
+const Students = [{
     name: "Micaela" ,
     price : 70
     },
