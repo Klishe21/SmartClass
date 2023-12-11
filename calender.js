@@ -54,5 +54,7 @@ prevNextIcons.forEach(icon =>{
 
 //Funcion que muestra el calendario a hacer click
 const calender = document.getElementById("calender")
-const button = document.getElementById("calenderId")
-button.addEventListener("mouseover", console.log("hola"))
+const buttonCalender = document.getElementById("calenderId")
+buttonCalender.addEventListener("click", () => {
+    calender.classList.toggle("hide")
+})
