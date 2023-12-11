@@ -45,10 +45,9 @@ filtrarNombres()
 //FUNCION ANONIMA ENCARGADA DE QUITAR Y PONER LA CLASE ACTIVE DEL ASIDE
 botonesMenu.forEach( boton =>{
     boton.addEventListener("click" , (e) =>{
-
         botonesMenu.forEach( boton => boton.classList.remove("active"))
-
         e.currentTarget.classList.add("active")
     })
 })
 
+//FUNCION ENCARGADA DE AGREGAR UNA CLASE DICTADA
