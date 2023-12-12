@@ -1,7 +1,7 @@
 const contenedorCards = document.querySelector("#contenedor-cards");
 const listaStudents = document.querySelector("#lista-Students");
 const botonesMenu = document.querySelectorAll(".boton-menu")
-
+const container = []
 // FUNCION ENCARGADA DE GENERAR CARDS DE Students
 function cargarCards() {
     Students.forEach( Students =>{
@@ -22,7 +22,7 @@ function cargarCards() {
 			</div>
 			<div class="add-lesson">
 				<h3>Agregar Clase</h3>
-				<span id="prev"> <i class="bi bi-plus-circle"></i></span>
+				<span id="iconPlus"> <i class="bi bi-plus-circle"></i></span>
 			</div>
         `
         contenedorCards.append(div)
@@ -51,3 +51,9 @@ botonesMenu.forEach( boton =>{
 })
 
 //FUNCION ENCARGADA DE AGREGAR UNA CLASE DICTADA
+const iconPlus = document.querySelectorAll("#iconPlus")
+iconPlus.forEach(icon =>{
+    icon.addEventListener("click", () =>{
+        console.log(container)
+    })
+})
