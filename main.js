@@ -28,7 +28,7 @@ function cargarCards() {
         contenedorCards.append(div)
     })
 } 
-cargarCards()
+
 
 //FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE Students
 function filtrarNombres () {
