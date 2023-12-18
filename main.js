@@ -3,32 +3,32 @@ const listaStudents = document.querySelector("#lista-Students");
 const botonesMenu = document.querySelectorAll(".boton-menu")
 const container = []
 // FUNCION ENCARGADA DE GENERAR CARDS DE Students
-function cargarCards() {
-    Students.forEach( Students =>{
-        const div = document.createElement("div")
-        div.classList.add("resumen-estudiantes-card")
-        div.innerHTML = `
-            <div class="nombre">
-				<h2>${Students.name}</h2>
-				<p>Precio X Hra : S/ ${Students.price}</p>
-			</div>
-			<div class="resumen-clases">
-				<div class="resumen-estudiantes-card-actual">
-					<h3>Actual</h3>
-				</div>
-				<div class="resumen-estudiantes-card-acumulado">
-					<h3>Acumulado</h3>
-				</div>
-			</div>
-			<div class="add-lesson">
-				<h3>Agregar Clase</h3>
-				<span id="iconPlus"> <i class="bi bi-plus-circle"></i></span>
-			</div>
-        `
-        contenedorCards.append(div)
-    })
-} 
-
+// function cargarCards() {
+//     Students.forEach( Students =>{
+//         const div = document.createElement("div")
+//         div.classList.add("resumen-estudiantes-card")
+//         div.innerHTML = `
+//             <div class="nombre">
+// 				<h2>${Students.name}</h2>
+// 				<p>Precio X Hra : S/ ${Students.price}</p>
+// 			</div>
+// 			<div class="resumen-clases">
+// 				<div class="resumen-estudiantes-card-actual">
+// 					<h3>Actual</h3>
+// 				</div>
+// 				<div class="resumen-estudiantes-card-acumulado">
+// 					<h3>Acumulado</h3>
+// 				</div>
+// 			</div>
+// 			<div class="add-lesson">
+// 				<h3>Agregar Clase</h3>
+// 				<span id="iconPlus"> <i class="bi bi-plus-circle"></i></span>
+// 			</div>
+//         `
+//         contenedorCards.append(div)
+//     })
+// } 
+// cargarCards()
 
 //FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE Students
 function filtrarNombres () {
