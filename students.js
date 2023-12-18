@@ -61,5 +61,11 @@ iconStudent.addEventListener("click", () => {
 			</div>
         `
         contenedorCards.append(div)
+        
+        const ul = document.createElement ("ul")
+        ul.innerHTML = `
+        <li><button class="boton-main">${name}</button></li>
+        `
+        listaStudents.append(ul)
     }
 })

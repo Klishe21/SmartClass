@@ -31,16 +31,16 @@ const container = []
 // cargarCards()
 
 //FUNCION ENCARGADA DE ACTUALIZAR LOS FILTROS DE Students
-function filtrarNombres () {
-    Students.forEach ( Students => {
-        const ul = document.createElement ("ul")
-        ul.innerHTML = `
-            <li><button class="boton-main">${Students.name}</button></li>
-        `
-        listaStudents.append(ul)
-    })
-}
-filtrarNombres()
+// function filtrarNombres () {
+//     Student.forEach ( Students => {
+//         const ul = document.createElement ("ul")
+//         ul.innerHTML = `
+//             <li><button class="boton-main">${Students.name}</button></li>
+//         `
+//         listaStudents.append(ul)
+//     })
+// }
+// filtrarNombres()
 
 //FUNCION ANONIMA ENCARGADA DE QUITAR Y PONER LA CLASE ACTIVE DEL ASIDE
 botonesMenu.forEach( boton =>{
