@@ -1,28 +1,28 @@
-const Students = [{
-    name: "Micaela" ,
-    price : 70
-    },
-{
-    name: "Valentina" ,
-    price : 90
-},
-{
-    name: "Rodrigo" ,
-    price : 80
-},
-{
-    name: "Santiago" ,
-    price : 80
+// const Students = [{
+//     name: "Micaela" ,
+//     price : 70
+//     },
+// {
+//     name: "Valentina" ,
+//     price : 90
+// },
+// {
+//     name: "Rodrigo" ,
+//     price : 80
+// },
+// {
+//     name: "Santiago" ,
+//     price : 80
     
-},
-{
-    name: "Camila" ,
-    price : 70
-},
-{
-    name: "Micaela" ,
-    price : 70
-    }]
+// },
+// {
+//     name: "Camila" ,
+//     price : 70
+// },
+// {
+//     name: "Micaela" ,
+//     price : 70
+//     }]
 class Student {
     constructor(name, price, history){
         this.name = name
@@ -31,6 +31,7 @@ class Student {
     }
 }
 
+//FUNCION ENCARGADA DE CREAR CARDS DE ESTUDIANTES DESDE EL BOTON "CREAR"
 const iconStudent = document.getElementById("addStudent")
 iconStudent.addEventListener("click", () => {
     const validacion = confirm("Desea agregar a un alumno nuevo?")
