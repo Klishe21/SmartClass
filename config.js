@@ -9,6 +9,7 @@ iconStudent.addEventListener("click", () => {
         const student = new Student(name, price)
         const div = document.createElement("div")
         div.classList.add("resumen-estudiantes-card")
+        div.classList.add("student")        
         div.innerHTML = `
             <div class="nombre">
 				<h2>${name}</h2>
@@ -34,5 +35,7 @@ iconStudent.addEventListener("click", () => {
         <li><button class="boton-main">${name}</button></li>
         `
         listaStudents.append(ul)
+        let students = document.querySelectorAll(".student")
+        console.log(students.document.firstChild.innerHTML)
     }
 })
