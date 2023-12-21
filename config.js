@@ -1,6 +1,11 @@
+const addStudent = document.getElementById("addStudent")
+const editStudent = document.getElementById("editStudent")
+const deleteStudent = document.getElementById("deleteStudent")
+
+let students = document.querySelectorAll(".student")
+
 //FUNCION ENCARGADA DE CREAR CARDS DE ESTUDIANTES DESDE EL BOTON "CREAR"
-const iconStudent = document.getElementById("addStudent")
-iconStudent.addEventListener("click", () => {
+addStudent.addEventListener("click", () => {
     const validacion = confirm("Desea agregar a un alumno nuevo?")
     if (validacion === true) {
         const name = prompt("1. Agrege nombre completo")
@@ -35,7 +40,19 @@ iconStudent.addEventListener("click", () => {
         <li><button class="boton-main">${name}</button></li>
         `
         listaStudents.append(ul)
-        let students = document.querySelectorAll(".student")
-        console.log(students.document.firstChild.innerHTML)
     }
 })
+//FUNCION ENCARGADA DE EDITAR CARDS DE ESTUDIANTES DESDE EL BOTON "EDITAR"
+editStudent.addEventListener("click", () => {
+    const validacion = confirm("Desea editar un alumno nuevo?")
+    if (validacion === true) {
+        const name = prompt("1. Que alumno desea EDITAR?")
+        }
+    })
+//FUNCION ENCARGADA DE BORRAR CARDS DE ESTUDIANTES DESDE EL BOTON "BORRAR"
+deleteStudent.addEventListener("click", () => {
+    const validacion = confirm("Desea editar a un alumno nuevo?")
+    if (validacion === true) {
+        const name = prompt("1. Que alumno desea ELIMINAR?")
+        }
+    })
