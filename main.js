@@ -1,5 +1,3 @@
-const contenedorCards = document.querySelector("#contenedor-cards");
-const listaStudents = document.querySelector("#lista-Students");
 const botonesMenu = document.querySelectorAll(".boton-menu")
 const container = []
 // FUNCION ENCARGADA DE GENERAR CARDS DE Students

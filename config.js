@@ -1,3 +1,5 @@
+const contenedorCards = document.querySelector("#contenedor-cards");
+const listaStudents = document.querySelector("#lista-Students");
 const addStudent = document.getElementById("addStudent")
 const editStudent = document.getElementById("editStudent")
 const deleteStudent = document.getElementById("deleteStudent")
