@@ -5,3 +5,4 @@ Desde hoy 06/11/2023 se empiezan a utilizar buenas prácticas de programación, 
 Retomando el Proyecto 10/12/2023
 .
 Se han agregado distintas featuring con el fin de mejorar la app
+Se busca lograr una app que recopile información de clases privadas para llevar las finanzas de maanera adecuada
